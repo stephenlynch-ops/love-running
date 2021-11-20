@@ -263,21 +263,33 @@ footer {
         padding: 30px 0;
         margin: 0;
     }
-
+    /* moves the left and right about into a single column */
     #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
-
+    /* pushes the image down below the left about and right about */
     #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
-
+    /* switches off the hr element */
     hr {
         display: none;
+    }
+}
+
+/* For media screeen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
