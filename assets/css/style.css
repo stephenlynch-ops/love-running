@@ -280,6 +280,13 @@ footer {
     hr {
         display: none;
     }
+    /* stacks the times divs ontop of each other. The clear:both means they won't try to squeeze them side by side if there is space left over */
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For media screeen sizes from 950px wide and down */
